@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230302 18:43:54.067" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Pedro Barros\.vscode\extensions\robocorp.robotframework-lsp-1.9.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="ChronosTest">
+<msg timestamp="20230302 18:43:55.293" level="FAIL">No keyword with name 'ChronosTest' found.</msg>
+<status status="FAIL" starttime="20230302 18:43:55.293" endtime="20230302 18:43:55.293"/>
+</kw>
+<kw name="Adicionar item no carrinho de compras">
+<status status="NOT RUN" starttime="20230302 18:43:55.294" endtime="20230302 18:43:55.294"/>
+</kw>
+<kw name="Click Link">
+<arg>Cart</arg>
+<status status="NOT RUN" starttime="20230302 18:43:55.295" endtime="20230302 18:43:55.295"/>
+</kw>
+<status status="PASS" starttime="20230302 18:43:54.104" endtime="20230302 18:44:01.110"/>
+</kw>
+<status status="PASS" starttime="20230302 18:43:54.104" endtime="20230302 18:44:01.110"/>
+</test>
+<status status="PASS" starttime="20230302 18:43:54.070" endtime="20230302 18:44:01.112"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

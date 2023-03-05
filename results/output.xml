@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230304 21:17:27.555" rpa="false" schemaversion="3">
+<suite id="s1" name="apagarIten" source="C:\Users\Pedro Barros\RobotSemComplicacao\apagarIten.robot">
+<test id="s1-t1" name="TesteDxcluirCarrinho" line="30">
+<kw name="Adicionar iten ao carrinho">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${Url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230304 21:17:27.747" level="INFO">Opening browser 'chrome' to base url 'https://www.demoblaze.com'.</msg>
+<status status="PASS" starttime="20230304 21:17:27.747" endtime="20230304 21:17:30.008"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230304 21:17:30.008" endtime="20230304 21:17:30.129"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>Laptops</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230304 21:17:30.129" level="INFO">Clicking link 'Laptops'.</msg>
+<status status="PASS" starttime="20230304 21:17:30.129" endtime="20230304 21:17:30.272"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>link=MacBook Pro</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230304 21:17:30.272" endtime="20230304 21:17:30.954"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>link=MacBook Pro</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230304 21:17:30.955" level="INFO">Clicking link 'link=MacBook Pro'.</msg>
+<status status="PASS" starttime="20230304 21:17:30.954" endtime="20230304 21:17:31.459"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>xpath=//div[2]//a</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230304 21:17:31.459" endtime="20230304 21:17:31.927"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//div[2]//a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20230304 21:17:31.927" level="INFO">Clicking element 'xpath=//div[2]//a'.</msg>
+<status status="PASS" starttime="20230304 21:17:31.927" endtime="20230304 21:17:31.975"/>
+</kw>
+<kw name="Alert Should Be Present" library="SeleniumLibrary">
+<doc>Verifies that an alert is present and by default, accepts it.</doc>
+<msg timestamp="20230304 21:17:31.975" level="INFO">HANDLE::&lt;class 'NoneType'&gt;::None</msg>
+<status status="PASS" starttime="20230304 21:17:31.975" endtime="20230304 21:17:32.482"/>
+</kw>
+<status status="PASS" starttime="20230304 21:17:27.746" endtime="20230304 21:17:32.482"/>
+</kw>
+<kw name="Excluir iten do carrinho">
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>link=Cart</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230304 21:17:32.484" level="INFO">Clicking link 'link=Cart'.</msg>
+<status status="PASS" starttime="20230304 21:17:32.483" endtime="20230304 21:17:32.994"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>link=Delete</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230304 21:17:32.995" endtime="20230304 21:17:33.665"/>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<arg>link=Delete</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<msg timestamp="20230304 21:17:33.666" level="INFO">Clicking link 'link=Delete'.</msg>
+<status status="PASS" starttime="20230304 21:17:33.665" endtime="20230304 21:17:33.704"/>
+</kw>
+<status status="PASS" starttime="20230304 21:17:32.483" endtime="20230304 21:17:33.704"/>
+</kw>
+<status status="PASS" starttime="20230304 21:17:27.745" endtime="20230304 21:17:33.704"/>
+</test>
+<doc>Apagar iten do carrinho</doc>
+<status status="PASS" starttime="20230304 21:17:27.555" endtime="20230304 21:17:33.706"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="apagarIten">apagarIten</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230304 21:17:27.729" level="ERROR">Error in file 'C:\Users\Pedro Barros\RobotSemComplicacao\apagarIten.robot' on line 4: Resource file 'chronos.robot' does not exist.</msg>
+</errors>
+</robot>
